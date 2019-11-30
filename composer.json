@@ -1,0 +1,22 @@
+{
+    "name": "kilyakus/yii2-api-object",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kilyakus",
+            "email": "aleksandr.kilyakov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": ">=2.0.0",
+        "kilyakus/yii2-package-seo": "*",
+        "kilyakus/yii2-package-translate": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "kilyakus\\api\\components\\": ""
+        }
+    }
+}
