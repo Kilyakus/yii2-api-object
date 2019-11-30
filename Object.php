@@ -1,5 +1,5 @@
 <?php
-namespace kilyakus\component\api;
+namespace kilyakus\components\api;
 
 use Yii;
 use yii\base\Object;
