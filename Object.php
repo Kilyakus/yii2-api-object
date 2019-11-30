@@ -2,10 +2,9 @@
 namespace kilyakus\components\api;
 
 use Yii;
-use yii\base\Object;
 use kilyakus\imageprocessor\Image;
 
-class Object extends Object
+class Object extends \yii\base\Object
 {
     public $transferClasses = [];
 
