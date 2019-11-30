@@ -1,5 +1,5 @@
 {
-    "name": "kilyakus/yii2-api-object",
+    "name": "kilyakus/yii2-component-apiobject",
     "type": "yii2-extension",
     "license": "MIT",
     "authors": [
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "kilyakus\\api\\components\\": ""
+            "kilyakus\\components\\api\\": ""
         }
     }
 }
