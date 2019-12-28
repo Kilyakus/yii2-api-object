@@ -30,8 +30,10 @@ class Object extends \yii\base\Object
 
     public function thumb($attribute, $width = null, $height = null, $crop = true)
     {
-        if($this->{$attribute} && ($width || $height)){
-            return Image::thumb($this->{$attribute}, $width, $height, $crop);
+        if(!is_int($attribute)){
+            if($this->{$attribute} && ($width || $height)){
+                return Image::thumb($this->{$attribute}, $width, $height, $crop);
+            }
         }
         return '';
     }
