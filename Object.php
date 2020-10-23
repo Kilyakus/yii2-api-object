@@ -2,7 +2,7 @@
 namespace kilyakus\components\api;
 
 use Yii;
-use kilyakus\imageprocessor\Image;
+use kilyakus\helper\media\Image;
 
 class Object extends \yii\base\Object
 {
